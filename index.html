@@ -29,13 +29,10 @@
 
             <label for="">
                 Converter <b>para</b>
-                <select name="" id="">
-                    <option value="">
-                        US$ Dólar americano
-                    </option>
-                    <option value="">
-                        € Euro
-                    </option>
+                <select id="currency-select">
+                    <option>US$ - Dólar americano</option>
+                    <option>€ - Euro</option>
+                    <option>₿ - Bitcoin</option>
                 </select>
             </label>
 
@@ -56,8 +53,8 @@
                 <img class="arrow-img" src="./assets/img/arrow.png" alt="arrow">
 
                 <div class="currency-container">
-                    <img src="./assets/img/estados-unidos.svg" alt="usa flag">
-                    <p class="currency-name">Dólar americano</p>
+                    <img src="./assets/img/estados-unidos.svg" alt="usa flag" id="currency-img">
+                    <p class="currency-name" id="currency-name">Dólar americano</p>
                     <p class="currency-value" id="currency-value-text">US$ 2.000,00</p>
                 </div>
             </section>
